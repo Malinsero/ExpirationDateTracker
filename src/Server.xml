@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <items>
-    <roastedcoffee>
-      <exprDate>00:07</exprDate>
-      <roast>
-        <name>Pike Place Roast</name>
-        <tag>Medium Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028472</sku>
-      </roast>
-      <roast>
-        <name>Espresso Roast</name>
-        <tag>Dark Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028472</sku>
-      </roast>
-      <roast>
-        <name>Organic Yukon</name>
-        <tag>Medium Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028476</sku>
-      </roast>
-      <roast>
-        <name>Sumatra</name>
-        <tag>Dark Roast</tag>
-        <tag>Single Origin</tag>
-        <sku>11028479</sku>
-      </roast>
-      <roast>
-        <name>Guatemala Antigua</name>
-        <tag>Medium Roast</tag>
-        <tag>Single Origin</tag>
-        <sku>11028499</sku>
-      </roast>
-      <roast>
-        <name>Komodo Dragon</name>
-        <tag>Dark Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028501</sku>
-      </roast>
-      <roast>
-        <name>Cafe Verona</name>
-        <tag>Dark Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028503</sku>
-      </roast>
-      <roast>
-        <name>Italian Roast</name>
-        <tag>Dark Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028506</sku>
-      </roast>
-      <roast>
-        <name>Veranda</name>
-        <tag>Blonde Roast</tag>
-        <tag>Blend</tag>
-        <sku>11028510</sku>
-      </roast>
-      <roast>
-        <name>Blonde Espresso</name>
-        <tag>Blonde Roast</tag>
-        <tag>Blend</tag>
-        <sku>11072544</sku>
-      </roast>
-      <roast>
-        <name>Siren's Blend</name>
-        <tag>Medium Roast</tag>
-        <tag>Blend</tag>
-        <sku>11104434</sku>
-      </roast>
-    </roastedcoffee>
-  </items>
-  <schedule>
-    <item>
-      <name>Pike Place Roast</name>
-      <exprDate>2020:02</exprDate>
-    </item>
-    <item>
-      <name>Sumatra</name>
-      <exprDate>2020:02</exprDate>
-    </item>
-  </schedule>
+	<items>
+		<roastedcoffee>
+			<exprDate>00:07</exprDate>
+			<roast>
+				<name>Pike Place Roast</name>
+				<tag>Medium Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028472</sku>
+			</roast>
+			<roast>
+				<name>Espresso Roast</name>
+				<tag>Dark Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028472</sku>
+			</roast>
+			<roast>
+				<name>Organic Yukon</name>
+				<tag>Medium Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028476</sku>
+			</roast>
+			<roast>
+				<name>Sumatra</name>
+				<tag>Dark Roast</tag>
+				<tag>Single Origin</tag>
+				<sku>11028479</sku>
+			</roast>
+			<roast>
+				<name>Guatemala Antigua</name>
+				<tag>Medium Roast</tag>
+				<tag>Single Origin</tag>
+				<sku>11028499</sku>
+			</roast>
+			<roast>
+				<name>Komodo Dragon</name>
+				<tag>Dark Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028501</sku>
+			</roast>
+			<roast>
+				<name>Cafe Verona</name>
+				<tag>Dark Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028503</sku>
+			</roast>
+			<roast>
+				<name>Italian Roast</name>
+				<tag>Dark Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028506</sku>
+			</roast>
+			<roast>
+				<name>Veranda</name>
+				<tag>Blonde Roast</tag>
+				<tag>Blend</tag>
+				<sku>11028510</sku>
+			</roast>
+			<roast>
+				<name>Blonde Espresso</name>
+				<tag>Blonde Roast</tag>
+				<tag>Blend</tag>
+				<sku>11072544</sku>
+			</roast>
+			<roast>
+				<name>Siren's Blend</name>
+				<tag>Medium Roast</tag>
+				<tag>Blend</tag>
+				<sku>11104434</sku>
+			</roast>
+		</roastedcoffee>
+	</items>
+	<schedule>
+		<item>
+			<name>Pike Place Roast</name>
+			<exprDate>2020:02</exprDate>
+		</item>
+		<item>
+			<name>Sumatra</name>
+			<exprDate>2020:02</exprDate>
+		</item>
+	</schedule>
 </root>

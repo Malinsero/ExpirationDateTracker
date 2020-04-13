@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <coffee>
+        <shelfLife>00:07:00</shelfLife>
+        <roast>
+            <name>Breakfast Blend</name>
+        </roast>
+        <roast>
+            <name>French</name>
+        </roast>
+        <roast>
+            <name>Espresso</name>
+        </roast>
+    </coffee>
+</root>

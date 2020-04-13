@@ -1,3 +1,5 @@
+package client;
+
 import java.awt.event.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
