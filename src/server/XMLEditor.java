@@ -3,6 +3,8 @@ package server;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Date;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 import nu.xom.Builder;
@@ -131,11 +133,28 @@ public class XMLEditor {
 	 * @param weeks How many weeks out you want to return expiring items.
 	 * @return An array of integers representing the IDs of the expiring items.
 	 */
-	public int[] getExpiring(int weeks) {
-	    Elements items = _schedule.getChildElements();
-	    for (int i = 0; i < items.size(); i++) {
+	public Integer[] getExpiring(int weeks) {
+	    CalendarDate limit = new CalendarDate(new Date()); // get the current day.
+	    limit.addDays(weeks * 7); // Add the number of weeks to it. This is our cutoff.
+	    
+	    // Create a collection to store our expiring items.
+	    // To avoid counting one item twice, we will use a HashSet.
+	    // We will return the elements at the end.
+	    HashSet<Integer> expiring = new HashSet<>();
+	    
+	    Elements items = _schedule.getChildElements(); // get the expiring items.
+	    for (int i = 0; i < items.size(); i++) { // for each item scheduled to expire:
+	        Element item = items.get(i);
+	        // Get the item's expiration date.
+	        CalendarDate expr = new CalendarDate(item.getFirstChildElement("date").getValue());
 	        
+	        if (expr.compareTo(limit) == -1) { // If our item expires before our limit:
+	            // Get the id of the expiring item and add it to the table.
+	            expiring.add(new Integer(item.getFirstChildElement("Id").getValue()));
+	        }
 	    }
+	    
+	    return (Integer[]) expiring.toArray();
 	}
 	
 	/**
